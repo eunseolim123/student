@@ -9,4 +9,3 @@ course: compsci
 | 0    |       |              |           |
 | 1    |       |              |           |
 | 2    |       |              |           |
-hello
