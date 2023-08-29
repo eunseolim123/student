@@ -17,5 +17,5 @@ I was born in Seoul, South Korea and I moved to the US in 2009.
 - [Hacks(Todo)](https://levelup.gitconnected.com/six-ultimate-daily-hacks-for-every-programmer-60f5f10feae) enable you to stay in focus with key requirements of the class.  Each Hack will produce Tangibles.
 - Tangibles or [Tangible Artifacts](https://en.wikipedia.org/wiki/Artifact_(software_development)) are things you accumulate as a learner and coder. 
 
-<img src="./images/AP CSP Self Introduction Drawing.png" style="float:right;position:relative;width:300px;height:200px;left:-50px;top:10px;">
+<img src="./images/AP CSP Self Introduction Drawing.png" style="float:right;position:relative;width:300px;height:200px;left:30px;top:10px;">
 <img src="./images/computer science.gif" style="float:left;position:relative;width:200px;height:200px;left:0px;top:10px">
