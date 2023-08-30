@@ -3,14 +3,14 @@ toc: true
 comments: true
 layout: default
 title: Review Ticket
-description: Example Review Ticket!!! This will help us communicate results.
+description: Communication of Results
 type: tangibles
 courses: { compsci: {week: 1} }
 ---
 
 ### Summary of Accomplishments
 > Update Blog to contain all hacks.  
-- Reviewed with Pair.  Discuss/Show evidence.
+- Reviewed with Pair. Discuss/Show evidence.
 - Discuss laptop, cloud computer.
 - Discuss tools setup and troubles.
 - Show personal blog / home page.
