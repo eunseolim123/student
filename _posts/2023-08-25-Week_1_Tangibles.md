@@ -8,7 +8,7 @@ type: tangibles
 courses: { compsci: {week: 1} }
 ---
 
-### Summary of Accomplishments
+### Week 1: Summary of Accomplishments
 > Update Blog to contain all hacks.  
 - Reviewed with Pair. Discuss/Show evidence.
 - Discuss laptop, cloud computer.
