@@ -1,5 +1,5 @@
 ---
-title: Calculator
+title: Calculator IPYNB
 comments: false
 hide: true
 layout: default
