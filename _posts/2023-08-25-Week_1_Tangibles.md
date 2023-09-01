@@ -10,14 +10,11 @@ courses: { compsci: {week: 1} }
 
 ### Week 1: Summary of Accomplishments
 > Update Blog to contain all hacks.  
-- Reviewed with Pair. Discuss/Show evidence.
-- Discuss laptop, cloud computer.
-- Discuss tools setup and troubles.
-- Show personal blog / home page.
-- Show how you are maintaining notes, answering hacks, and showing tangibles.  
-- How have you learned Markdown, HTML, CSS, JavaScript.
-- Show Jupyter Notebooks and how you have added and organized them in the blog.
-- Show evidence of using Slack Account, show app installed on Laptop and/or phone.  Show awared of #annoncements, #general, #coding.
-- Run make commands to build and test blog locally, before pushing changes to GitHub pages.
-- Discuss GitHub Account, show ability to push/pull changes from VSCode.
-- Discuss development on Themes, show how you plan to organized lab notebook.
+- Reviewed with Pair. Showed each other personal blogs, went over difficulties.
+- Learned index.md should be edited for GitHub Page rather than index.html.
+- First live review done (1.85/2), learned to pay closer attention to errors and explain more in depth.
+- Theme changed from Time Machine to Minimal.
+- Used w3schools to learn how to <b>[customize tables](http://localhost:4200/student//2023/08/17/Markdown_Table_Code_Hack_IPYNB_2_.html)</b>. 
+  - Changing borders, colors, etc.
+- <b>[GitHub Page](http://localhost:4200/student) edited, changed images around</b>.
+

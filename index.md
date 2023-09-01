@@ -6,6 +6,34 @@ title: Student Blog
 ## Welcome to Eun's GitHub Page!
 This is where I will be blogging my learning and progress.
 
+## Class Schedule
+<table>
+  <tr>
+    <th>Period</th>
+    <th>Class</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>AP English Language & Composition</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>AP Computer Science Principles</td>
+  </tr>
+  <tr>
+   <td>3</td>
+    <td>AP Biology</td>
+  </tr>
+  <tr>
+   <td>4</td>
+    <td>AP Statistics</td>
+  </tr>
+   <tr>
+   <td>5</td>
+    <td>Offroll</td>
+  </tr>
+</table>
+
 ## Self Introduction
 I was born in Seoul, South Korea and I moved to the US in 2009. 
 

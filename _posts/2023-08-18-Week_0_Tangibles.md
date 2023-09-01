@@ -13,3 +13,7 @@ courses: { compsci: {week: 0} }
 - Decided pair. Talked about prior computer science experience.
 - Set up tools. GitHub, VSCode.
 - Worked out problems with pair. Went back through directions and fixed errors.
+  - <b>Errors:</b> Jupyter was not installed, certain lines of code were skipped (like "echo").
+- <b>Set up [GitHub Page](http://localhost:4200/student/)</b>.
+  - Added class schedule, free form picture, gif, self introduction.
+  
