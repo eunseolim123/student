@@ -41,8 +41,8 @@ I was born in Seoul, South Korea and I moved to the US in 2009.
 - I love art, and I've had over 10 art teachers in my life.
 - I enjoy music. I play the piano and violin, and I lead an ensemble outside of school.
   
-## Lab Notebook
-Go to [lab notebook](http://localhost:4200/student/compsci) to see my lab notebook.
+## Time Box
+Go to [Time Box](http://localhost:4200/student/compsci) to see my lab notebook.
 
 - Plans, Lists, [Scrum Boards](https://clickup.com/blog/scrum-board/) help you to track key events, show progress and record time.  Effort is a big part of your class grade.  Show plans and time spent!
 - [Hacks(Todo)](https://levelup.gitconnected.com/six-ultimate-daily-hacks-for-every-programmer-60f5f10feae) enable you to stay in focus with key requirements of the class.  Each Hack will produce Tangibles.
