@@ -6,6 +6,20 @@ title: Student Blog
 ## Welcome to Eun's GitHub Page!
 This is where I will be blogging my learning and progress.
 
+<style>
+table, th, td {
+  border: 3px teal;
+  border-collapse: collapse;
+  border-style: solid;
+}
+th {
+  background-color: teal;
+}
+td {
+  background-color: azure;
+}
+</style>
+
 ## Class Schedule
 <table>
   <tr>
@@ -42,7 +56,7 @@ I was born in Seoul, South Korea and I moved to the US in 2009.
 - I enjoy music. I play the piano and violin, and I lead an ensemble outside of school.
   
 ## Time Box
-Go to [Time Box](http://localhost:4200/student/compsci) to see my lab notebook.
+Go to [Time Box](http://localhost:4200/student/compsci) to see my Time Box.
 
 - Plans, Lists, [Scrum Boards](https://clickup.com/blog/scrum-board/) help you to track key events, show progress and record time.  Effort is a big part of your class grade.  Show plans and time spent!
 - [Hacks(Todo)](https://levelup.gitconnected.com/six-ultimate-daily-hacks-for-every-programmer-60f5f10feae) enable you to stay in focus with key requirements of the class.  Each Hack will produce Tangibles.
