@@ -1,0 +1,117 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+<div style="width: 600px; height: 300px;">
+    <canvas id="combinedBarChart"></canvas>
+</div>
+
+<script>
+    const mostAwareData = [98.9, 97.7, 97.6, 97.5, 97.4, 97.3, 96.1, 96.0, 95.6, 95.4];
+    const leastAwareData = [30.1, 29.6, 27.8, 26.5, 26.4, 25.4, 25.0, 21.7, 20.7, 20.6];
+    const countries = [
+        'Japan',
+        'United States',
+        'Finland',
+        'Norway',
+        'United Kingdom',
+        'Australia',
+        'Sweden',
+        'Germany',
+        'Netherlands',
+        'Canada',
+        'Morocco',
+        'Togo',
+        'Nigeria',
+        'Zambia',
+        'Ghana',
+        'Afghanistan',
+        'Egypt',
+        'Burundi',
+        'Benin',
+        'Liberia'
+    ];
+
+    const combinedBarChartData = {
+        labels: countries,
+        datasets: [
+            {
+                label: 'Awareness Level',
+                data: [...mostAwareData, ...leastAwareData],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.6)',
+                    'rgba(54, 162, 235, 0.6)',
+                    'rgba(255, 206, 86, 0.6)',
+                    'rgba(75, 192, 192, 0.6)',
+                    'rgba(153, 102, 255, 0.6)',
+                    'rgba(255, 159, 64, 0.6)',
+                    'rgba(128, 0, 0, 0.6)',
+                    'rgba(0, 128, 0, 0.6)',
+                    'rgba(0, 0, 128, 0.6)',
+                    'rgba(255, 0, 255, 0.6)',
+                    'rgba(255, 99, 132, 0.6)',
+                    'rgba(54, 162, 235, 0.6)',
+                    'rgba(255, 206, 86, 0.6)',
+                    'rgba(75, 192, 192, 0.6)',
+                    'rgba(153, 102, 255, 0.6)',
+                    'rgba(255, 159, 64, 0.6)',
+                    'rgba(128, 0, 0, 0.6)',
+                    'rgba(0, 128, 0, 0.6)',
+                    'rgba(0, 0, 128, 0.6)',
+                    'rgba(255, 0, 255, 0.6)',
+                    'rgba(128, 128, 128, 0.6)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                    'rgba(128, 0, 0, 1)',
+                    'rgba(0, 128, 0, 1)',
+                    'rgba(0, 0, 128, 1)',
+                    'rgba(255, 0, 255, 1)',
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                    'rgba(128, 0, 0, 1)',
+                    'rgba(0, 128, 0, 1)',
+                    'rgba(0, 0, 128, 1)',
+                    'rgba(255, 0, 255, 1)',
+                    'rgba(128, 128, 128, 1)'
+                ],
+                borderWidth: 1
+            }
+        ]
+    };
+
+    const combinedBarChartConfig = {
+        type: 'bar',
+        data: combinedBarChartData,
+        options: {
+            responsive: true,
+            scales: {
+                x: {
+                    beginAtZero: true,
+                },
+                y: {
+                    beginAtZero: true,
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false,
+                },
+                title: {
+                    display: true,
+                    text: 'Awareness of Climate Change by Country'
+                }
+            }
+        }
+    };
+
+    const combinedBarChartContext = document.getElementById('combinedBarChart').getContext('2d');
+    new Chart(combinedBarChartContext, combinedBarChartConfig);
+</script>

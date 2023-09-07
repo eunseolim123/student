@@ -1,11 +1,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 
-<div style="width: 600px; height: 300px;">
+<div style="width: 575px; height: 330px;">
     <canvas id="myChart"></canvas>
 </div>
 
 <script>
-    // Define the data for the "Umbrellas Sold" line
     const umbrellaSalesData = [15, 25, 17, 28, 41, 47, 50, 46, 37, 22, 20, 30];
 
     const labels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -50,7 +49,6 @@
         }
     }; 
     
-    // Initialize and render the chart
     const ctx = document.getElementById('myChart').getContext('2d');
     new Chart(ctx, config);
 </script>
