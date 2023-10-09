@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Alien World Background
+title: Piano Background
 description: Use JavaScript without external libararies to animate Mario moving across screen, OOP style.
 categories: [C5.0, C7.0, C7.6]
-image: /images/alien_planet.jpg
+image: /images/movingbg_csppassionproj.jpg
 courses: { compsci: {week: 7} }
 type: hacks
 ---
 
-{% assign alienPlanetFile = site.baseurl | append: page.image %}
+{% assign movingbg_csppassionproj = site.baseurl | append: page.image %}
 {% assign WIDTH = 7000 %}
 {% assign HEIGHT = 2500 %}
 
@@ -59,7 +59,7 @@ type: hacks
   }
 
   const backgroundImg = new Image();
-  backgroundImg.src = '{{alienPlanetFile}}';
+  backgroundImg.src = '{{movingbg_csppassionproj}}';
   var backgroundObj = new Layer(backgroundImg, 0.5)
 
   function background() {
