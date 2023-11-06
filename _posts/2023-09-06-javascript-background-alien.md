@@ -4,7 +4,7 @@ title: Piano Background
 description: Use JavaScript without external libararies to animate Mario moving across screen, OOP style.
 categories: [C5.0, C7.0, C7.6]
 image: /images/movingbg_csppassionproj.jpg
-courses: { compsci: {week: 7} }
+courses: { compsci: {week: 9} }
 type: hacks
 ---
 
